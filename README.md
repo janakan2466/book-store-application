@@ -1,0 +1,2 @@
+# BookStore-Application
+BookStore Application developed with the use of agile methodologies and crafted from Software Engineering principles (Use case diagrams, UML diagrams with Visual Paradigm). The tools used to create this project were Java and JavaFX for the GUI aspect. This application allows an owner, and customer to log in which demonstrated OOP such as inheritance, abstraction, polymorphism etc.
