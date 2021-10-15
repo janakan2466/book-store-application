@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="270.0" prefWidth="471.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.CustomerThankYouController">
+   <children>
+      <Label layoutX="23.0" layoutY="38.0" prefHeight="140.0" prefWidth="425.0" text="Thank You for Your Purchase" textAlignment="RIGHT" textFill="#3890a1">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnOk" layoutX="59.0" layoutY="192.0" mnemonicParsing="false" onAction="#btnOk" prefHeight="60.0" prefWidth="330.0" text="Ok" />
+   </children>
+</AnchorPane>

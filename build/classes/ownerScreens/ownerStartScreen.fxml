@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="FXControllers.owenerStartScreenController">
+   <children>
+      <Button layoutX="230.0" layoutY="67.0" mnemonicParsing="false" onAction="#btnOwnerBooks" prefHeight="61.0" prefWidth="140.0" text="Books" />
+      <Button layoutX="230.0" layoutY="170.0" mnemonicParsing="false" onAction="#btnOwnerCustomers" prefHeight="61.0" prefWidth="140.0" text="Customers" />
+      <Button layoutX="230.0" layoutY="272.0" mnemonicParsing="false" onAction="#btnOwnerLogout" prefHeight="61.0" prefWidth="140.0" text="Logout" />
+      <Label fx:id="startScreenStatus" layoutX="31.0" layoutY="26.0" prefHeight="29.0" prefWidth="100.0" />
+   </children>
+</AnchorPane>

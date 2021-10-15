@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="609.0" prefWidth="850.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.OwnerBooksController">
+   <children>
+      <TableView fx:id="ownerBookTable" layoutX="46.0" layoutY="39.0" prefHeight="307.0" prefWidth="575.0">
+        <columns>
+          <TableColumn fx:id="bookName" prefWidth="324.0" text="Book Name" />
+          <TableColumn fx:id="bookPrice" prefWidth="250.0" text="Book Price" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnOwnerAdd" layoutX="678.0" layoutY="39.0" mnemonicParsing="false" onAction="#btnOwnerAdd" prefHeight="55.0" prefWidth="106.0" text="Add" />
+      <Button fx:id="btnOwnerDelete" layoutX="678.0" layoutY="132.0" mnemonicParsing="false" onAction="#btnOwnerDelete" prefHeight="61.0" prefWidth="112.0" text="Delete" />
+      <Button fx:id="btnOwnerBack" layoutX="675.0" layoutY="244.0" mnemonicParsing="false" onAction="#btnOwnerBack" prefHeight="61.0" prefWidth="112.0" text="Back" />
+      <TextField fx:id="txtbookName" layoutX="46.0" layoutY="380.0" onAction="#txtBookName" prefHeight="36.0" prefWidth="509.0" promptText="Book Name" />
+      <TextField fx:id="txtbookprice" layoutX="46.0" layoutY="435.0" onAction="#txtBookPrice" prefHeight="36.0" prefWidth="509.0" promptText="Book Price $ (Do not include the $ sign)" />
+      <Label fx:id="satlab" layoutX="256.0" layoutY="540.0" prefHeight="29.0" prefWidth="221.0" />
+   </children>
+</AnchorPane>

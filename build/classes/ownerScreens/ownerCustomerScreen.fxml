@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="535.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.OwnerCustomerScreenController">
+   <children>
+      <TableView fx:id="ownerCustomersTable" layoutX="10.0" layoutY="37.0" prefHeight="230.0" prefWidth="648.0">
+        <columns>
+          <TableColumn fx:id="clmnUsername" prefWidth="196.0" text="Username" />
+          <TableColumn fx:id="clmnPassword" prefWidth="234.0" text="Password" />
+            <TableColumn fx:id="clmnPoints" prefWidth="215.0" text="Points" />
+        </columns>
+      </TableView>
+      <TextField fx:id="txtPassword" layoutX="34.0" layoutY="350.0" onAction="#txtPassword" prefHeight="31.0" prefWidth="346.0" promptText="Password" />
+      <TextField fx:id="txtUsername" layoutX="34.0" layoutY="303.0" onAction="#txtUsername" prefHeight="31.0" prefWidth="346.0" promptText="Username" />
+      <Button fx:id="btnDelete" layoutX="40.0" layoutY="408.0" mnemonicParsing="false" onAction="#btnDelete" prefHeight="49.0" prefWidth="83.0" text="Delete" />
+      <Button fx:id="btnAdd" layoutX="487.0" layoutY="310.0" mnemonicParsing="false" onAction="#btnAdd" prefHeight="49.0" prefWidth="106.0" text="Add" />
+      <Button fx:id="btnBack" layoutX="276.0" layoutY="484.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="31.0" prefWidth="294.0" text="Back" />
+      <Label fx:id="satlabc" layoutX="234.0" layoutY="418.0" prefHeight="29.0" prefWidth="221.0" />
+   </children>
+</AnchorPane>

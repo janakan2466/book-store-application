@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="433.0" prefWidth="625.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXControllers.CustomerLoginScreenController">
+   <children>
+      <Label fx:id="customerLoginScreenTop" layoutX="64.0" layoutY="14.0" prefHeight="46.0" prefWidth="472.0" />
+      <TableView fx:id="customerStartScreenTable" layoutX="64.0" layoutY="73.0" prefHeight="214.0" prefWidth="472.0">
+        <columns>
+          <TableColumn fx:id="bookName" prefWidth="169.0" text="Book Name" />
+          <TableColumn fx:id="bookPrice" prefWidth="143.0" text="Book Price" />
+            <TableColumn fx:id="selectOption" prefWidth="159.0" text="Select" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnCustomerBuy" layoutX="64.0" layoutY="313.0" mnemonicParsing="false" onAction="#btnCustomerBuy" prefHeight="46.0" prefWidth="96.0" text="Buy" />
+      <Button fx:id="btnCustomerRedeemPoints" layoutX="252.0" layoutY="313.0" mnemonicParsing="false" onAction="#btnCustomerRedeemPoints" prefHeight="46.0" prefWidth="96.0" text="Redeem Points" />
+      <Button fx:id="btnCustomerLogOut" layoutX="440.0" layoutY="313.0" mnemonicParsing="false" onAction="#btnCustomerLogout" prefHeight="46.0" prefWidth="96.0" text="Log Out" />
+      <Label fx:id="customerLoginScreenStatus" layoutX="64.0" layoutY="387.0" prefHeight="32.0" prefWidth="472.0" textFill="#fc0303" />
+   </children>
+</AnchorPane>
